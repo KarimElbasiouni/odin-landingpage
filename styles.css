@@ -117,7 +117,7 @@ button{
     font-style: italic;
     font-weight:100;
     color:#1f2937;
-    padding: 60px 320px;
+    padding: 100px 320px;
 }
 
 .quote .author{
@@ -125,6 +125,5 @@ button{
     font-size: 20px;
     font-style: normal;
     font-weight: bold;
-    justify-content:flex-end;
     text-align: end;
 }
