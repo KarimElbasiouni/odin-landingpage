@@ -121,9 +121,44 @@ button{
 }
 
 .quote .author{
-    padding: 3px;
+    padding: 24px 0px 0px 0px;
     font-size: 20px;
     font-style: normal;
     font-weight: bold;
     text-align: end;
+}
+
+.signup{
+    display:flex;
+    background-color:#f9faf8;
+    align-items: center;
+    justify-content: center;
+    padding: 120px 200px;
+}   
+
+.calltoaction{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 80px;
+    background-color:#3882f6;
+    border-radius: 8px;
+    color: #f9faf8;
+    padding:50px 120px;
+    flex-wrap:wrap;
+}
+
+.calltoaction button{
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+.text{
+    color:#e5e7eb;
+}
+
+.text .main{
+    color:#f9faf8;
+    font-size: 20px;
+    font-weight: bold;
 }
